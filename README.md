@@ -22,7 +22,7 @@ Then fill out `.env` with the appropriate credentials.
 
 **TBD: below just launches a sample GitHub auth server.**
 
-    $ ruby advanced_server.rb
+    $ ruby bountiful.rb
 
 Then go to [localhost:4567](http://localhost:4567/).
 
