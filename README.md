@@ -16,11 +16,20 @@ You should have the following minimally setup:
     $ bundle install
     $ cp .env.example .env
 
-Then fill out `.env` with the appropriate credentials.
+Then fill out `.env` with the appropriate credentials (instructions below).
 
 ## Development
 
-**TBD: below just launches a sample GitHub auth server.**
+If it's your first time, you'll want to join the [GitHub Developers Program](https://developer.github.com/program/).
+Then go to Settings > Applications > Developer applications and create an
+application. A few key things here:
+
+- The Client ID and Client Secret are what you'll use in `.env` for local
+development.
+- The "Authorized callback URL" should be "http://localhost:4567/callback" or
+whatever is appropriate.
+
+When you're all set, run the following:
 
     $ ruby bountiful.rb
 
