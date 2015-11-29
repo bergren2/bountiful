@@ -1,9 +1,7 @@
 require 'sinatra'
 require 'rest-client'
 require 'json'
-require 'dotenv'
 require 'octokit'
-Dotenv.load
 
 CLIENT_ID = ENV['GH_BASIC_CLIENT_ID']
 CLIENT_SECRET = ENV['GH_BASIC_SECRET_ID']

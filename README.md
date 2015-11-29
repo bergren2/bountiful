@@ -9,6 +9,7 @@ You should have the following minimally setup:
 - [Git](https://help.github.com/articles/set-up-git) (duh)
 - [rbenv](https://github.com/sstephenson/rbenv)
 & [ruby-build](https://github.com/sstephenson/ruby-build)
+- [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 ## Initial Project Setup
 
@@ -31,7 +32,7 @@ whatever is appropriate.
 
 When you're all set, run the following:
 
-    $ ruby bountiful.rb
+    $ heroku local bountiful.rb
 
 Then go to [localhost:4567](http://localhost:4567/).
 
